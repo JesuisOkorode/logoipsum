@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+}
+ /* header styling */
+header {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-image {
+    margin-top: 20px;
+}
+
+.header-list {
+    display: flex;
+    gap: 40px;
+    margin-top: 10px;
+}
+
+.header-list #home {
+    color: #19191B;
+    font-weight: 700;
+}
+.header-list a {
+    text-decoration: none;
+    color: #696871;
+    font-size: 14px;
+}
+
+.header-button {
+    margin-top: 20px;
+    background-color: #FF7143;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+}
+
+.header-button a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+/* section one styling get your susscription styling */
+
+.section-one {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.grow-business {
+    width: 40%;
+}
+
+.grow-business h1 {
+   font-size: 45px;
+   line-height: 45px;
+}
+
+.grow-business p {
+    color: #696871;
+    font-size: 14px;  
+    padding: 30px 0;  
+}
+
+.business-button {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.business-button a {
+    background-color: #5454D4;
+    color: #FFF;
+    height: 35px;
+    padding: 10px 30px;
+    font-size: 10px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.business-button img {
+    width: 8%;
+}
+
+.grow-business-image {
+    width: 55%;
+}
+
+.grow-business-image img {
+    width: 100%;
+}
+
+/* image footer styling */
+
+footer {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+footer img {
+    width: 10%;
+}
+
+/* section two man holding a pencile styling */
+
+.section-two {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.man-image {
+    width: 45%;
+}
+
+.man-image img {
+    width: 100%;
+}
+
+.subscription-index {
+    width: 40%;
+}
+
+.subscription-index h3 {
+    font-size: 30px;
+}
+
+.subscription-index p {
+    font-size: 14px;
+    color: #696871;
+    padding: 30px 0;
+    line-height: 20px;
+}
+
+.subscription-index a {
+    font-size: 12px;
+    text-decoration: none;
+}
+
+/* section three man holding a tab styling */
+
+.section-three {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.In-depth {
+    width: 40%;
+}
+
+.In-depth h3 {
+    font-size: 30px;
+}
+
+.In-depth p {
+    font-size: 14px;
+    color: #696871;
+    padding: 30px 0;
+    line-height: 20px; 
+}
+
+.In-depth a {
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.In-depth-image {
+    width: 45%;
+}
+
+.In-depth-image img {
+    width: 100%;
+}
+
+/* styling of get the right plan for section four  */
+
+.section-four {
+    margin: 0 auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(8px, 1fr));
+    gap: 20px;
+    padding-top: 100px;
+}
+
+.folder {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.folder img {
+    width: 30%;
+    
+}
+
+.folder span {
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+.folder p {
+    font-size: 12px;
+    color: #696871;
+}
+
+/* styling of yearly and monthly botton  */
+
+.section-five {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.section-five h2 {
+    font-size: 35px;
+    width: 40%;
+}
+
+.monthly-yearly-botton {
+
+}
+
+.Monthly-yearly-botton .forst {
+    background-color: #5454D4;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 8px 30px;
+    border-radius: 4px 0 0 4px;
+}
+
+.Monthly-yearly-botton .second {
+    background-color: #F7F7FB;
+    color: #19191B;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 8px 30px;
+    border-radius: 4px 0 0 4px;
+}
+
+/* styling of payment section  */
+
+.payment-section {
+    margin: 0 auto;
+    width: 80%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(8px, 1fr));
+    padding: 60px 0;
+}
+
+.payment-plan {
+    background-color: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 25px;
+    gap: 25px;
+    border-radius: 10px;
+}
+
+.payment-plan span {
+    color: #696871;
+    font-size: 12px;
+}
+
+.payment-plan h5 {
+    color: #1D293F;
+    font-size: 30px;
+}
+
+.payment-plan h5 #one {
+    color: #1D293F;
+    font-size: 18px;
+}
+
+.payment-plan p {
+    color: #696871;
+    font-size: 12px;
+}
+
+.payment-plan a {
+    background-color: #FFF;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 10px 20px;
+    color: #5454D4;
+    border-radius: 10px;
+
+}
+
+.payment-plan:hover {
+    background-color: #FF7143;
+    color: #FFF;
+    transition: 0.5s;
+    box-shadow: 0px 32px 34px 0px rgba(255, 112, 59, 0.32);
+}
+
+.payment-plan:hover p{
+    color: #FFF;
+}
+.payment-plan:hover h5{
+    color: #FFF;
+}
+.payment-plan:hover #one {
+    color: #FFF;
+}
+.payment-plan:hover span{
+    color: #FFF;
+}
+.payment-plan:hover a{
+    background-color: #9F3919;
+    color: #FFF;
+}
